@@ -4556,7 +4556,13 @@ button {
     margin-bottom: 40px;
 }
 .contact-area-v2 .information-style-two{
-    max-width: 380px;
+    max-width: 420px;
+}
+
+
+.form_group .list {
+    max-height: 200px;
+    overflow: auto;
 }
 
 /* Contact Area v3 */
