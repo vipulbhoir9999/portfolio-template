@@ -49,7 +49,7 @@
         $(".menu-item").on('click', function() {
             navMenu.removeClass('menu-on');
             navbarToggler.removeClass('active');
-            $(".nav-overlay").toggleClass("active");
+            $(".nav-overlay").removeClass("active");
         });
         // adds toggle button to li items that have children
         navMenu.find('li a').each(function() {
