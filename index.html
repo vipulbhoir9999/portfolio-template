@@ -14,6 +14,12 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <!--====== Responsive css ======-->
         <link rel="stylesheet" href="assets/css/responsive.css">
+
+        <style>
+            .custom-disabled-btn {
+                background-color: var(--secondary) !important;
+            }
+        </style>
     </head>
     <body class="gradient-body">
         <!--====== Start Preloader ======-->
@@ -52,6 +58,7 @@
                         <li>
                             <i class="fal fa-phone"></i>
                             <a href="tel:+919284393181">+91 9284393181</a>
+                            <a href="tel:+919011408969">+91 9011408969</a>
                             <!-- <a href="tel:(312)-895-9888">(312) 895-9888</a> -->
                         </li>
                     </ul>
@@ -72,63 +79,11 @@
                         <div class="nav-menu nav-ml-auto">
                             <!-- Navbar Close -->
                             <div class="navbar-close"><i class="far fa-times"></i></div>
-                            <!-- Nav Search -->
-                            <!-- <div class="nav-search">
-                                <form>
-                                    <div class="form_group">
-                                        <input type="email" class="form_control" placeholder="Search Here" name="email" required="">
-                                        <button class="search-btn"><i class="fas fa-search"></i></button>
-                                    </div>
-                                </form>
-                            </div> -->
+                            
                             <!-- Main Menu -->
                             <nav class="main-menu">
                                 <ul>
-                                    <!-- <li class="menu-item has-children"><a href="#" class="active nav-link">Demos</a>
-                                        <ul class="sub-menu">
-                                            <li class="has-children"><a href="#">Multipage</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="/">Creative Agency</a></li>
-                                                    <li><a href="index-2.html">Digital Agency</a></li>
-                                                    <li><a href="index-3.html">Design Studio</a></li>
-                                                    <li><a href="index-3-dark.html">Design Studio Dark</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-children"><a href="#">Onepage</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="onepage-index-1.html">Creative Agency</a></li>
-                                                    <li><a href="onepage-index-2.html">Digital Agency</a></li>
-                                                    <li><a href="onepage-index-3.html">Design Studio</a></li>
-                                                    <li><a href="onepage-index-3-dark.html">Design Studio Dark</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li> -->
-                                    <!-- <li class="menu-item has-children"><a href="#" class="nav-link">Services</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="services.html">Our Service</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item has-children"><a href="#" class="nav-link">Portfolio</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="projects.html">Our Portfolio</a></li>
-                                            <li><a href="project-details.html">Portfolio Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item has-children"><a href="#" class="nav-link">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="#about-us-section">About Us</a></li>
-                                            <li><a href="team.html">Our Team</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item has-children"><a href="#" class="nav-link">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blogs.html">Our Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li> -->
+                                    
                                     <li class="menu-item"><a href="#service-section" class="nav-link">Services</a></li>
                                     <li class="menu-item"><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
                                     <li class="menu-item"><a href="#about-us-section" class="nav-link">About Us</a></li>
@@ -138,7 +93,6 @@
                         </div>
                         <div class="header-right-nav">
                             <ul>
-                                <!-- <li class="cart-item"><a href="#"><span class="number">0</span><i class="far fa-shopping-cart"></i></a></li> -->
                                 <li class="bar-item"><a href="#"><img style="width: 60%;" src="assets/images/dot.png" alt="dot"></a></li>
                                 <li class="navbar-toggle-btn">
                                     <div class="navbar-toggler">
@@ -205,7 +159,6 @@
                                         <li>Web App Development</li>
                                         <li>Backend Development</li>
                                     </ul>
-                                    <!-- <a href="service-details.html" class="btn-link">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -222,7 +175,6 @@
                                         <li>Wireframing</li>
                                         <li>Design Systems</li>
                                     </ul>
-                                    <!-- <a href="service-details.html" class="btn-link">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -239,7 +191,6 @@
                                         <li>High Scalability</li>
                                         <li>QA Automation</li>
                                     </ul>
-                                    <!-- <a href="service-details.html" class="btn-link">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -271,7 +222,6 @@
                                 <li>Professional Problem Solutions</li>
                                 <li>Driving Business Growth</li>
                             </ul>
-                            <!-- <a href="#about-us-section" class="main-btn bordered-btn btn-blue">Learn More About Us</a> -->
                         </div>
                     </div>
                 </div>
@@ -288,29 +238,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="portfolio-filter-button text-center mb-30 wow fadeInDown">
-                            <ul class="filter-btn mb-30">
-                                <li data-filter="*" class="active">Show All</li>
-                                <li data-filter=".cat-1">Design</li>
-                                <li data-filter=".cat-2">Branding</li>
-                                <li data-filter=".cat-3">Development</li>
-                                <li data-filter=".cat-4">SEO</li>
-                                <li data-filter=".cat-5">UX/UI Design</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="row portfolio-grid">
                     <div class="col-lg-4 col-md-6 col-sm-12 cat-1 portfolio-column cat-3">
                         <div class="portfolio-item portfolio-style-two mb-50 wow fadeInUp" data-wow-delay=".1s">
                             <div class="img-holder">
-                                <img src="assets/images/portfolio/img-10.jpg" alt="Img">
+                                <img src="assets/images/portfolio/img-10.png" alt="Img">
                                 <div class="portfolio-hover">
                                     <div class="hover-content">
-                                        <a href="#" class="cat-btn">Design</a>
-                                        <h4><a href="project-details.html">Creative Arts</a></h4>
+                                        <h4><span>Web App</span></h4>
                                     </div>
                                 </div>
                             </div>
@@ -319,11 +255,10 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-2 cat-4">
                         <div class="portfolio-item portfolio-style-two mb-50 wow fadeInUp" data-wow-delay=".2s">
                             <div class="img-holder">
-                                <img src="assets/images/portfolio/img-11.jpg" alt="Img">
+                                <img src="assets/images/portfolio/img-11.png" alt="Img">
                                 <div class="portfolio-hover">
                                     <div class="hover-content">
-                                        <a href="#" class="cat-btn">Design</a>
-                                        <h4><a href="project-details.html">Creative Arts</a></h4>
+                                        <h4><span>Mobile App</span></h4>
                                     </div>
                                 </div>
                             </div>
@@ -332,11 +267,10 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-3 cat-4">
                         <div class="portfolio-item portfolio-style-two mb-50 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img-holder">
-                                <img src="assets/images/portfolio/img-12.jpg" alt="Img">
+                                <img src="assets/images/portfolio/img-12.png" alt="Img">
                                 <div class="portfolio-hover">
                                     <div class="hover-content">
-                                        <a href="#" class="cat-btn">Design</a>
-                                        <h4><a href="project-details.html">Creative Arts</a></h4>
+                                        <h4><span>Website</span></h4>
                                     </div>
                                 </div>
                             </div>
@@ -345,11 +279,10 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-4 cat-3">
                         <div class="portfolio-item portfolio-style-two mb-50 wow fadeInUp" data-wow-delay=".4s">
                             <div class="img-holder">
-                                <img src="assets/images/portfolio/img-13.jpg" alt="Img">
+                                <img src="assets/images/portfolio/img-13.png" alt="Img">
                                 <div class="portfolio-hover">
                                     <div class="hover-content">
-                                        <a href="#" class="cat-btn">Design</a>
-                                        <h4><a href="project-details.html">Creative Arts</a></h4>
+                                        <h4><span>Website</span></h4>
                                     </div>
                                 </div>
                             </div>
@@ -358,11 +291,10 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-5 cat-1">
                         <div class="portfolio-item portfolio-style-two mb-50 wow fadeInUp" data-wow-delay=".5s">
                             <div class="img-holder">
-                                <img src="assets/images/portfolio/img-14.jpg" alt="Img">
+                                <img src="assets/images/portfolio/img-14.png" alt="Img">
                                 <div class="portfolio-hover">
                                     <div class="hover-content">
-                                        <a href="#" class="cat-btn">Design</a>
-                                        <h4><a href="project-details.html">Creative Arts</a></h4>
+                                        <h4><span>Mobile App</span></h4>
                                     </div>
                                 </div>
                             </div>
@@ -371,11 +303,10 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 portfolio-column cat-4 cat-2">
                         <div class="portfolio-item portfolio-style-two mb-50 wow fadeInUp" data-wow-delay=".6s">
                             <div class="img-holder">
-                                <img src="assets/images/portfolio/img-15.jpg" alt="Img">
+                                <img src="assets/images/portfolio/img-15.png" alt="Img">
                                 <div class="portfolio-hover">
                                     <div class="hover-content">
-                                        <a href="#" class="cat-btn">Design</a>
-                                        <h4><a href="project-details.html">Creative Arts</a></h4>
+                                        <h4><span>UI/UX Design</span></h4>
                                     </div>
                                 </div>
                             </div>
@@ -417,21 +348,25 @@
                             <div class="contact-form mb-40 wow fadeInRight">
                                 <h2>Get in Touch, <br>
                                     Let's Talk!</h2>
-                                <form>
+                                <form id="lead-form">
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <div class="form_group">
-                                                <input type="text" class="form_control" placeholder="Full Name" name="name" required="">
+                                                <input id="name-input" type="text" minlength="3" class="form_control" placeholder="Full Name" name="name" required="" 
+                                                oninvalid="this.setCustomValidity('Please enter a valid name')" oninput="this.setCustomValidity('')"
+                                                >
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="form_group">
-                                                <input type="email" class="form_control" placeholder="Email Address" name="email" required="">
+                                                <input id="email-input" type="email" pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$" minlength="5" class="form_control" placeholder="Email Address" name="email" required=""
+                                                oninvalid="this.setCustomValidity('Please enter a valid email address')" oninput="this.setCustomValidity('')"
+                                                >
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="form_group">
-                                                <select class="wide">
+                                                <select id="assistance-select" class="wide">
                                                     <option data-display="How Can We Assist You?">How Can We Assist You?</option>
                                                     <option value="Website Development">Website Development</option>
                                                     <option value="Mobile App Development">Mobile App Development</option>
@@ -447,12 +382,14 @@
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="form_group">
-                                                <input type="text" class="form_control" placeholder="Phone Number" name="phone" required="">
+                                                <input id="phone-input" minlength="10" maxlength="10" type="tel" class="form_control" placeholder="Phone Number" name="phone" pattern="^\d{10}$" required=""
+                                                oninvalid="this.setCustomValidity('Please enter a valid 10-digit mobile number')" oninput="this.setCustomValidity('')"
+                                                >
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="form_group">
-                                                <button class="main-btn arrow-btn">Send Message</button>
+                                                <button id="send-message-btn" class="main-btn arrow-btn">Send Message</button>
                                             </div>
                                         </div>
                                     </div>
@@ -522,19 +459,7 @@
                 </div>
             </div>
         </section><!--====== End Counter Section ======-->
-        <!--====== Start Video Section ======-->
-        <!-- <section class="intro-area intro-area-v1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="play-content bg_cover text-center wow fadeInUp" style="background-image: url(assets/images/video/img-1.jpg);">
-                            <a href="https://www.youtube.com/watch?v=AT6oSIDbGkw" class="video-popup"><i class="fas fa-play"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!--====== End Video Section ======-->
+        
         <!--====== Start Partners Section ======-->
         <section class="partners-area pt-120">
             <div class="container">
@@ -711,123 +636,7 @@
                 </div>
             </div>
         </section><!--====== End Testimonial Section ======-->
-        <!--====== Start Pricing Section ======-->
-        <!--<section class="pricing-area pricing-area-v1">
-            <div class="container-1350">
-                <div class="pricing-wrapper pt-75 pb-70">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6">
-                            <div class="section-title text-center mb-55">
-                                <h2>Pricing Package</h2>
-                                <p>Professional Design Agency to provide solutions</p>
-                            </div>    
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="pricing-item pricing-item-one mb-40 wow fadeInUp">
-                                <div class="pricing-head text-center">
-                                    <span class="plan">Basic Plan</span>
-                                    <h2 class="price"><span class="currency">$</span>16.95</h2>
-                                </div>
-                                <div class="pricing-body">
-                                    <p>Sit amet consectetur adiising seddo eiusmod teme</p>
-                                    <ul class="pricing-list">
-                                        <li class="check">Web Design</li>
-                                        <li class="check">Web Development</li>
-                                        <li class="check">SEO Optimizations</li>
-                                        <li class="uncheck">Online Support</li>
-                                        <li class="uncheck">Domain & Hosting</li>
-                                    </ul>
-                                    <a href="#contact-us-section" class="main-btn arrow-btn">Choose Plan</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="pricing-item pricing-item-one mb-40 wow fadeInUp">
-                                <div class="ribbon">Popular</div>
-                                <div class="pricing-head text-center">
-                                    <span class="plan">Standard Plan</span>
-                                    <h2 class="price"><span class="currency">$</span>46.95</h2>
-                                </div>
-                                <div class="pricing-body">
-                                    <p>Sit amet consectetur adiising seddo eiusmod teme</p>
-                                    <ul class="pricing-list">
-                                        <li class="check">Web Design</li>
-                                        <li class="check">Web Development</li>
-                                        <li class="check">SEO Optimizations</li>
-                                        <li class="check">Online Support</li>
-                                        <li class="check">Domain & Hosting</li>
-                                    </ul>
-                                    <a href="#contact-us-section" class="main-btn arrow-btn">Choose Plan</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="pricing-item pricing-item-one mb-40 wow fadeInUp">
-                                <div class="pricing-head text-center">
-                                    <span class="plan">Silver Plan</span>
-                                    <h2 class="price"><span class="currency">$</span>96.95</h2>
-                                </div>
-                                <div class="pricing-body">
-                                    <p>Sit amet consectetur adiising seddo eiusmod teme</p>
-                                    <ul class="pricing-list">
-                                        <li class="check">Web Design</li>
-                                        <li class="check">Web Development</li>
-                                        <li class="check">SEO Optimizations</li>
-                                        <li class="check">Online Support</li>
-                                        <li class="check">Domain & Hosting</li>
-                                    </ul>
-                                    <a href="#contact-us-section" class="main-btn arrow-btn">Choose Plan</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>--><!--====== End Pricing Section ======-->
-        <!--====== Start Blog Section ======-->
-        <!--<section class="blog-area blog-area-v2 pt-130 pb-90">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="text-wrapper mb-40 wow fadeInLeft">
-                            <div class="section-title mb-35">
-                                <h2>Read Latest 
-                                    News & Blogs</h2>
-                                <p>Professional Design Agency to 
-                                        provide solutions</p>
-                            </div>
-                            <a href="blogs.html" class="main-btn bordered-btn btn-blue arrow-btn">View More News</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="blog-post-item bg_cover mb-40 wow fadeInUp">
-                                    <div class="entry-content">
-                                        <a href="#" class="cat-btn">Branding</a>
-                                        <h3 class="title"><a href="blog-details.html">Web Frame Worksen Solve Vanilla Alter</a></h3>
-                                        <p>On the other hand, we denounce righteou indignation and dislik men who are so beguiled and demo</p>
-                                        <a href="blog-details.html" class="btn-link">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="blog-post-item bg_cover mb-40 wow fadeInUp">
-                                    <div class="entry-content">
-                                        <a href="#" class="cat-btn">Branding</a>
-                                        <h3 class="title"><a href="blog-details.html">Web Frame Worksen Solve Vanilla Alter</a></h3>
-                                        <p>On the other hand, we denounce righteou indignation and dislik men who are so beguiled and demo</p>
-                                        <a href="blog-details.html" class="btn-link">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>--><!--====== End Blog Section ======-->
+        
         <!--====== Start CTA Section ======-->
         <section class="cta-area cta-area-v2 position-relative z-2 wow fadeInDown">
             <div class="container">
@@ -874,12 +683,10 @@
                             <div class="widget footer-nav-widget mb-40 wow fadeInUp" data-wow-delay=".20s">
                                 <h4 class="widget-title">Links</h4>
                                 <ul class="widget-nav">
+                                    <li><a href="#service-section">Services</a></li>
+                                    <li><a href="#portfolio-section">Portfolio</a></li>
                                     <li><a href="#about-us-section">About Us</a></li>
                                     <li><a href="#contact-us-section">Contact Us</a></li>
-                                    <!-- <li><a href="services.html">Meet The Team</a></li>
-                                    <li><a href="services.html">Popular Services</a></li>
-                                    <li><a href="services.html">Testimonials</a></li>
-                                    <li><a href="services.html">Need a Career?</a></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -887,32 +694,14 @@
                             <div class="widget social-widget mb-40 wow fadeInUp" data-wow-delay=".25s">
                                 <h4 class="widget-title">Follow</h4>
                                 <ul class="social-nav">
-                                    <!-- <li><a href="#"><i class="fab fa-dribbble"></i>Dribbble</a></li> -->
                                     <li><a target="_blank" href="https://www.instagram.com/alphacubes"><i class="fab fa-instagram"></i>Instagram</a></li>
                                     <li><a target="_blank" href="https://www.x.com/alphacubes"><i class="fab fa-twitter"></i>X</a></li>
-                                    <!-- <li><a target="_blank" href="#"><i class="fab fa-behance"></i>Behance</a></li> -->
                                     <li><a target="_blank" href="https://www.facebook.com/alphacubes"><i class="fab fa-facebook-f"></i>Facebook</a></li>
                                     <li><a target="_blank" href="https://www.linkedin.com/alphacubes"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <!-- <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="widget newsletter-widget mb-40 wow fadeInUp" data-wow-delay=".30s">
-                                <div class="newsletter-content">
-                                    <h3>Subscribe Our 
-                                        Newsletter</h3>
-                                    <p>Natus errorsit voluptatem accusa dolore
-                                        mque quae <a href="#">abillo inventore verita</a> achitec 
-                                        beatae vitae dicta sunt explicabo.</p>
-                                    <form>
-                                        <div class="form_group">
-                                            <input type="email" class="form_control" placeholder="Email Address" name="email" required="">
-                                            <button class="main-btn">Sign Up</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div> -->
+                        
                     </div>
                 </div>
                 <div class="footer-copyright">
@@ -922,15 +711,7 @@
                                 <p>&copy; 2025. All rights reserved by alphacubes digital solutions.</p>
                             </div>
                         </div>
-                        <!-- <div class="col-lg-6">
-                            <div class="footer-nav float-lg-right">
-                                <ul>
-                                    <li><a href="services.html">Setting & Privacy </a></li>
-                                    <li><a href="services.html">Faqs</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                </ul>
-                            </div>
-                        </div> -->
+                        
                     </div>
                 </div>
             </div>
@@ -963,5 +744,50 @@
         <script src="assets/vendor/parallax.min.js"></script>
         <!--====== Main js ======-->
         <script src="assets/js/theme.js"></script>
+
+        <script>
+            const form = document.getElementById('lead-form');
+          
+            form.addEventListener('submit', function(event) {
+              event.preventDefault(); // prevents page reload
+              // Your custom logic here
+              const sendButton = document.getElementById('send-message-btn');
+              sendButton.setAttribute('disabled', true);
+              sendButton.innerHTML = "Sending...";
+              sendButton.classList.add('custom-disabled-btn');
+              const nameInput = document.getElementById('name-input');
+              const emailInput = document.getElementById('email-input');
+              const assistanceSelect = document.getElementById('assistance-select');
+              const phoneInput = document.getElementById('phone-input');
+
+              var data = JSON.stringify({
+                "name": nameInput.value,
+                "email": emailInput.value,
+                "assistanceRequiredIn": assistanceSelect.value,
+                "phone": phoneInput.value
+                });
+
+                var xhr = new XMLHttpRequest();
+
+                xhr.addEventListener("readystatechange", function() {
+                if(this.readyState === 4) {
+                    sendButton.removeAttribute('disabled');
+                    sendButton.innerHTML = "Send Message";
+                    sendButton.classList.remove('custom-disabled-btn');
+                    phoneInput.value = '';
+                    nameInput.value = '';
+                    emailInput.value = '';
+                    assistanceSelect.value = 'How Can We Assist You?';
+                    
+                    alert("We have received your message! Our team will contact you shortly.");
+                }
+                });
+
+                xhr.open("POST", "http://localhost:3001/api/alpha/v1/lead/generatelead");
+                xhr.setRequestHeader("Content-Type", "application/json");
+
+                xhr.send(data);
+            });
+          </script>
     
 </body></html>
